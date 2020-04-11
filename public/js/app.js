@@ -3,6 +3,7 @@ const search = document.querySelector('input')
 const msg1 = document.querySelector('#msg-1')
 const msg2 = document.querySelector('#msg-2')
 const msg3 = document.querySelector('#msg-3')
+const msg4 = document.querySelector('#msg-4')
 
 
 weatherForm.addEventListener('submit', (e) =>{
@@ -21,6 +22,7 @@ weatherForm.addEventListener('submit', (e) =>{
 				msg1.textContent = 'Location: ' + data.Location
 				msg2.textContent = 'Temperature: ' + data.Temp + ' degrees'
 				msg3.textContent = 'Summary: ' + data.Summary + "."
+				msg4.textContent = 'Have a great day!!'
 			}
 		})
 	})
