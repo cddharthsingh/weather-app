@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
 	res.render('help', {
-		message: 'Sorry, can not help. Fuck off',
+		message: 'Sorry, can not help. I know nothing',
 		title: 'Help',
 		name: 'Siddharth'
 	})
